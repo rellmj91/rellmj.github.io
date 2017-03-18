@@ -1,0 +1,11 @@
+++Updates++
+Tuesday, March 14th
+*Drop img into background.
+*Created 'About Me' class/header and filled with info.
+*Created 'Contact class/header and filled with info.
+*Made nav/main container transparent.
+*Added resume, sources and updates to id all contents.
+*Change nav li padding to space id all contents appropriately.
+*Made a href link to operation spark open a new tab.
+*Created a base target for all a href links to open a new tab.
+*Dropped in documents currently txt files for all contents a href links.
