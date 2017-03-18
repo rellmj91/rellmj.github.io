@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>Terell's Developing Website: Resume</title>
+		<title>Terell's Developing Website: Portfolio</title>
 		<style>
             body {
                 background: rgba(0, 0, 0, 0.5);
@@ -43,29 +43,37 @@
                 text-decoration: none;
                 color: #fff;
             }
-    
             /* main container area beneath menu */
             main {
                 background: rgba(0, 0, 0, 0.8);
 				height: 450px;
                 display: flex;
-
             }
-            [class=sidebar] {
-                margin-right: 20px;
-                padding: 10px;
-            }
-            [class=sidebar] img {
-                width: 200px;
-
-            }
-            [class=content] {
+            .content {
                 flex: 1;
                 padding: 15px;
             }
-            [class=interests] header {
-                font-size: 1.25em;
+            
+           #portfolio {
+                list-style-type: none;
+                padding-left: 0;
+                
+            } 
+           #portfolio li{
+               background: #00cc00;
+               padding: 10px;
+               border-radius: 10px;
+               margin-right: 10px;
             }
+           #portfolio li:hover{
+               background: #eee;
+            }
+           #portfolio a{
+               text-decoration: none;
+               color: #454545;
+
+            }
+
         </style>
 			
 	</head>
@@ -74,16 +82,13 @@
 			<nav>
 				<ul>
 					<li><a href="index.html">Home</a></li>
-					<li><a href="sources.html">Sources</a></li>
-					<li><a href="projects.html">Projects</a></li>
-					<li><a href="updates.html">Updates</a></li>
 				</ul>
 			</nav>
 			<main>
-					
-				</div>
 				<div class="content">
-
+					<header><u><center>Welcome</u></br>Portfolio</center></header>
+					<ul id="portfolio">
+					</ul>
 					</section>
 				</div>
 			</main>
