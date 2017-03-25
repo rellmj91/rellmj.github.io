@@ -49,44 +49,28 @@
                 border-radius: 10px;
 
             }
-            [class=sidebar] {
-                margin-right: 5px;
-                padding: 10px;
-            }
-            [class=sidebar] img {
-                width: 200px;
-                border-style: outset;
-
-            }
-            [class=content] {
+            .content {
                 flex: 1;
                 padding: 15px;
-                border: 2px solid;
-                border-style: outset;
+            }
+            
+           #studies {
+                list-style-type: none;
+                padding-left: 0;
+
+                
+            } 
+           #studies li{
+               background: #00cc00;
+               padding: 10px;
+               border-radius: 10px;
+               margin-right: 10px;
+            }
+           #studies li:hover{
+               background: #eee;
+            }
+           #studies a{
+               text-decoration: none;
+               color: #454545;
 
             }
-            [class=interests] header {
-                font-size: 1.25em;
-            }
-        </style>
-			
-	</head>
-	<body>
-		<div id="all-contents">
-			<nav>
-				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="portfolio.html">Portfolio</a></li>
-				</ul>
-			</nav>
-			<main>
-				<div class="content">
-					<header><u><center></br>Studies</center></header>
-					<ul id="studies">
-					</ul>
-					</section>
-				</div>
-			</main>
-		</div>
-	</body
-</html>
