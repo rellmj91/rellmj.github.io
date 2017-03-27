@@ -24,12 +24,21 @@
             [id=all-contents] {
                 max-width: 1300px;
                 margin: auto;
+                
             }
-            [class=code] {
-                width: 900;
-                margin-right: 200px;
 
+            [id=studies] {
+                width: 50%;
+                padding: 3px;
             }
+            [id=size] {
+                height: 600px ;
+            }
+
+#div3 {
+    height:600px;
+}
+
     
             /* navigation menu */
             nav {
@@ -59,13 +68,22 @@
 
             }
             .content {
-                flex: 1;
+                display: flex;
                 padding: 15px;
+            }
+            main {
+                background: rgba(0, 0, 0, 0,8);
+                height: 5000px;
+
+                
+
+            
             }
             
            #studies {
                 list-style-type: none;
                 padding-left: 0;
+                
 
                 
             } 
@@ -79,8 +97,7 @@
                background: #eee;
             }
            #studies a{
-               text-decoration: none;
-               color: #454545;
+               height: 500px;
 
             }
 
@@ -96,25 +113,32 @@
 				</ul>
 			</nav>
 			<main>
+			    <header><u><center></br>Studies</center></header>
 				<div class="content">
-					<header><u><center></br>Studies</center></header>
-					<ul id="studies">
+				<div id="studies">
 					<section>
-					    <div class="code">
-					    <h1><font color="#00e6b8"></font>Variables</h1></a>
+					    <div>
+					    <h1><font color="green"><center>Variables</font></center></h1>
 					    <code data-gist-id="9ed98f5c5ea55d1979cc2ed844c56035" data-gist-file="jsbin.kofixik.js" data-gist-hide-footer="true"></code>
-					    </div>
-					</section>
+                        <h2><font color="green"><center>Operators</center></font></h2>
+                        <code data-gist-id="5c2623974a29ef8e3bb22d43b0064839" data-gist-file="jsbin.kofixik.js" data-gist-hide-footer="true"></code>
+					    <h3><font color="green"><center>String Manipulation</center></font></h3>
+                        <code data-gist-id="f4e7c76df01cc735d5a895aabde3b441" data-gist-file="jsbin.kofixik.js" data-gist-hide-footer="true"></code>
+					
+					</section></div>
+				<div id="studies">
 					<section>
-					    <div class="code">
-					    <h1>Data-Type</h1></a>
+					    <h1><font color="green"><center>Data Types</center></font></h1>
 					    <code data-gist-id="66ac75bd40adb3a972032480a1a21260" data-gist-file="jsbin.kofixik.js" data-gist-hide-footer="true"></code>
-					    </div>
-					    <div class="code">
-					    <h1></h1></a>
-					    <code data-gist-id="" data-gist-file="jsbin.kofixik.js" data-gist-hide-footer="true"></code>
+					    <h2><font color="green"><center>Control Flow</center></font></h2>
+					    <code data-gist-id="0c2c2afb1f788d4019f001a4aad86fa0" data-gist-file="jsbin.kofixik.js" data-gist-hide-footer="true"></code>
+					    <h3><font color="green"><center>Loops</center></font></h3>
+					    <code data-gist-id="f82a5e75f861c73a85104bf2ea5275c6" data-gist-file="jsbin.kofixik.js" data-gist-hide-footer="true"></code>
+					    <h4><font color="green"><center>Functions: Programs with Programs</center></font></h4>
+					    <code data-gist-id="279e7fbaf7fa74def71593e7eef3bf62" data-gist-file="jsbin.kofixik.js" data-gist-hide-footer="true"></code>
 					    </div>
 					</section>
+					</div>
 				</div>
 			</main>
 		</div>

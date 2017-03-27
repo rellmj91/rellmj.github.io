@@ -12,12 +12,19 @@
             [id=all-contents] {
                 max-width: 1300px;
                 margin: auto;
+                
             }
-            [class=code] {
-                width: 900;
-                margin-right: 200px;
+
+            [id=studies] {
+                max-height: 300px;
+                width: 50%;
+                padding: 3px;
+ 
+
 
             }
+        
+
     
             /* navigation menu */
             nav {
@@ -47,8 +54,15 @@
 
             }
             .content {
-                flex: 1;
+                display: flex;
                 padding: 15px;
+            }
+            main {
+                background: rgba(0, 0, 0, 0.8);
+                margin: auto;
+                
+
+            
             }
             
            #studies {
